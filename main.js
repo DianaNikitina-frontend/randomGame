@@ -12,7 +12,6 @@ const getRandomNumber = maxLimit => Math.round(Math.random() * maxLimit);
 const randomNumber = getRandomNumber(max);
 
 
-
 const playGame = (minLimit, maxLimit, attsNumber, number, name) => {
    alert(`Приветик, ${userName}!
    Я загадал число большее, чем ${minLimit} и меньшее чем ${maxLimit}.
