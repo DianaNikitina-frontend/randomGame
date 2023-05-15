@@ -2,6 +2,7 @@ const min = 0;
 const max = 100;
 const attCount = 10;
 
+
 function getUserName () {
     const userName = prompt("Привет! Как тебя зовут?");
     return userName;
