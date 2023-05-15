@@ -8,7 +8,6 @@ function getUserName () {
 }
 const userName = getUserName();
 
-
 const getRandomNumber = maxLimit => Math.round(Math.random() * maxLimit);
 const randomNumber = getRandomNumber(max);
 
